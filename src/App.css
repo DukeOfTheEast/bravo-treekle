@@ -12,6 +12,8 @@
   padding: 1px 400px;
 }
 
+/* LOGIN PAGE */
+
 .logo {
   width: 50px;
   height: 50px;
@@ -27,7 +29,6 @@
 }
 
 .login {
-  /* background-color: greenyellow; */
   text-align: center;
   color: #fff;
   padding: 150px 70px;
@@ -72,4 +73,87 @@
 .forgot {
   margin: 20px 0;
   color: #09e82e;
+}
+
+/* DASHBOARD */
+.dashboard {
+  background: linear-gradient(to left, #09e82e, #0134c2);
+  padding: 30px 30px;
+  padding-top: 80px;
+}
+
+.andre {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.dash-top {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.dashtop1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.well {
+  font-size: 11px;
+  color: rgb(180, 199, 199);
+}
+
+.alert {
+  width: 30px;
+  height: 30px;
+}
+
+.over-balance {
+  background-color: #fff;
+  margin: 50px 0;
+  border-radius: 10px;
+  padding: 20px;
+}
+.tot-tra {
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+}
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.out-bal {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgb(226, 143, 143);
+  border-radius: 10px;
+  padding: 5px 12px;
+  font-size: 12px;
+}
+
+.money {
+  margin: 15px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0134c2;
+}
+
+.arrow {
+  background-color: rgb(226, 143, 143);
+  padding: 1px 3px;
+  color: #fff;
+}
+
+.star1 {
+  padding: 5px;
+  background-color: rgb(241, 241, 248);
+  border-radius: 10px;
+  padding-right: 60px;
+  font-size: 12px;
 }
