@@ -78,8 +78,8 @@
 /* DASHBOARD */
 .dashboard {
   background: linear-gradient(to left, #09e82e, #0134c2);
-  padding: 30px 30px;
-  padding-top: 80px;
+  /* padding: 30px 30px; */
+  padding-top: 20px;
 }
 
 .andre {
@@ -92,6 +92,7 @@
   display: flex;
   align-items: center;
   gap: 200px;
+  margin: 0 20px;
 }
 
 .dashtop1 {
@@ -114,7 +115,8 @@
 
 .over-balance {
   background-color: #fff;
-  margin: 50px 0;
+  margin: 30px 20px;
+
   border-radius: 10px;
   padding: 20px;
 }
@@ -156,4 +158,82 @@
   border-radius: 10px;
   padding-right: 60px;
   font-size: 12px;
+}
+
+.history {
+  color: blue;
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+
+.features-img {
+  width: 30px;
+  height: 30px;
+}
+
+.features-text {
+  font-size: 10px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 30px;
+  background-color: #fff;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.features-unique {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.bottom1 {
+  width: 50px;
+  height: 80px;
+}
+
+.bottom2 {
+  width: 250px;
+  height: 80px;
+  margin: 0 10px;
+}
+
+.bottom3 {
+  width: 50px;
+  height: 80px;
+}
+
+.bottom-img {
+  margin: 20px 0;
+}
+
+.invite {
+  display: flex;
+  background-color: white;
+  margin: 20px 20px;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.invite-img {
+  width: 30px;
+  height: 30px;
+}
+
+.earn {
+  font-size: 10px;
+}
+
+.tree2 {
+  font-size: 14px;
+}
+
+.me {
+  fill: white;
 }

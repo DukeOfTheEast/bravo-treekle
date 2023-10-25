@@ -2,6 +2,22 @@ import React from "react";
 import "../../src/App.css";
 import Andre from "../images/1.jpg";
 import Alert from "../assets/asset1.svg";
+import { Link } from "react-router-dom";
+import Airtime from "../assets/asset2.svg";
+import Data from "../assets/asset3.svg";
+import Electricity from "../assets/asset4.svg";
+import Advance from "../assets/asset7.svg";
+import Cable from "../assets/asset6.svg";
+import Treekle from "../assets/asset8.svg";
+import One from "../images/Asset 16.png";
+import Two from "../images/Asset 17.png";
+import Three from "../images/Asset 18.png";
+import Invite from "../assets/asset10.svg";
+import Home from "../assets/asset11.svg";
+import Chat from "../assets/asset12.svg";
+import Reward from "../assets/asset13.svg";
+import More from "../assets/asset14.svg";
+import Me from "../assets/asset15.svg";
 
 const Dashboard = () => {
   return (
@@ -20,7 +36,9 @@ const Dashboard = () => {
       <div className="over-balance">
         <div className="tot-tra">
           <p>Total Available Balance</p>
-          <p>Transaction History</p>
+          <Link to="/history" className="history">
+            Transaction History
+          </Link>
         </div>
         <h3 className="money">N257,940</h3>
         <div className="stars">
@@ -35,6 +53,70 @@ const Dashboard = () => {
             </div>
             <p className="arrow">&raquo;</p>
           </div>
+        </div>
+      </div>
+
+      <div className="features">
+        <div className="features-unique">
+          <img src={Airtime} alt="" className="features-img" />
+          <p className="features-text">Airtime</p>
+        </div>
+        <div className="features-unique">
+          <img src={Data} alt="" className="features-img" />
+          <p className="features-text">Data</p>
+        </div>
+        <div className="features-unique">
+          <img src={Electricity} alt="" className="features-img" />
+          <p className="features-text">Electricity</p>
+        </div>
+        <div className="features-unique">
+          <img src={Advance} alt="" className="features-img" />
+          <p className="features-text">Advance</p>
+        </div>
+        <div className="features-unique">
+          <img src={Cable} alt="" className="features-img" />
+          <p className="features-text">Cable</p>
+        </div>
+        <div className="features-unique">
+          <img src={Treekle} alt="" className="features-img" />
+          <p className="features-text">Treekle KEEP</p>
+        </div>
+      </div>
+
+      <div className="bottom-img">
+        <img src={Three} alt="" className="bottom1" />
+        <img src={One} alt="" className="bottom2" />
+        <img src={Two} alt="" className="bottom3" />
+      </div>
+
+      <div className="invite">
+        <img src={Invite} alt="" className="invite-img" />
+        <div>
+          <p className="tree2">Invite Treekle/Treeklite and Earn</p>
+          <p className="earn">Earn commissions and badges per invite</p>
+        </div>
+      </div>
+
+      <div className="nav">
+        <div>
+          <img src={Home} alt="" />
+          <p></p>
+        </div>
+        <div>
+          <img src={Chat} alt="" />
+          <p></p>
+        </div>
+        <div>
+          <img src={Reward} alt="" />
+          <p></p>
+        </div>
+        <div>
+          <img src={More} alt="" />
+          <p></p>
+        </div>
+        <div>
+          <img src={Me} alt="" className="me" />
+          <p></p>
         </div>
       </div>
     </div>
