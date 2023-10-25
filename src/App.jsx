@@ -1,10 +1,17 @@
 import "./App.css";
+import Login from "./components/Login";
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "../src/components/Dashboard";
 
 function App() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <div className="app">
+      {/* <Login /> */}
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </div>
   );
 }
 
