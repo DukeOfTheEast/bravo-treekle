@@ -13,10 +13,10 @@ import One from "../images/Asset 16.png";
 import Two from "../images/Asset 17.png";
 import Three from "../images/Asset 18.png";
 import Invite from "../assets/asset10.svg";
-import Home from "../assets/asset11.svg";
+import Home from "../images/Asset 22.png";
 import Chat from "../assets/asset12.svg";
-import Reward from "../assets/asset13.svg";
-import More from "../assets/asset14.svg";
+import Reward from "../images/Asset 21.png";
+import More from "../images/Asset 23.png";
 import Me from "../assets/asset15.svg";
 
 const Dashboard = () => {
@@ -98,25 +98,25 @@ const Dashboard = () => {
       </div>
 
       <div className="nav">
-        <div>
-          <img src={Home} alt="" />
-          <p></p>
+        <div className="nav-items">
+          <img src={Home} alt="" className="navImg" />
+          <p className="nav-p">Home</p>
         </div>
-        <div>
-          <img src={Chat} alt="" />
-          <p></p>
+        <div className="nav-items">
+          <img src={Chat} alt="" className="navImg" />
+          <p className="nav-p">Chat</p>
         </div>
-        <div>
-          <img src={Reward} alt="" />
-          <p></p>
+        <div className="nav-items">
+          <img src={Reward} alt="" className="navImg" />
+          <p className="nav-p">Reward</p>
         </div>
-        <div>
-          <img src={More} alt="" />
-          <p></p>
+        <div className="nav-items">
+          <img src={More} alt="" className="navImg" />
+          <p className="nav-p">More</p>
         </div>
-        <div>
-          <img src={Me} alt="" className="me" />
-          <p></p>
+        <div className="nav-items">
+          <img src={Me} alt="" className="navImg" />
+          <p className="nav-p">Me</p>
         </div>
       </div>
     </div>

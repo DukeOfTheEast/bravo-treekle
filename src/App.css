@@ -79,7 +79,8 @@
 .dashboard {
   background: linear-gradient(to left, #09e82e, #0134c2);
   /* padding: 30px 30px; */
-  padding-top: 20px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .andre {
@@ -207,7 +208,7 @@
 }
 
 .bottom-img {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .invite {
@@ -234,6 +235,30 @@
   font-size: 14px;
 }
 
-.me {
-  fill: white;
+.nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  position: fixed;
+  bottom: 0;
+  width: 29%;
+}
+
+.navImg {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-p {
+  font-size: 10px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }

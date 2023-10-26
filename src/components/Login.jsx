@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import TreekleLogo from "../assets/asset8.svg";
+import TreekleLogo from "../assets/asset23.svg";
 import "../../src/App.css";
 
 const Login = () => {
