@@ -15,7 +15,7 @@ import Three from "../images/Asset 18.png";
 import Invite from "../assets/asset10.svg";
 import Home from "../images/Asset 22.png";
 import Chat from "../assets/asset12.svg";
-import Reward from "../images/Asset 21.png";
+import Reward from "../images/Asset 23.png";
 import More from "../images/Asset 23.png";
 import Me from "../assets/asset15.svg";
 
@@ -107,8 +107,10 @@ const Dashboard = () => {
           <p className="nav-p">Chat</p>
         </div>
         <div className="nav-items">
-          <img src={Reward} alt="" className="navImg" />
-          <p className="nav-p">Reward</p>
+          <Link to="/rewards" className="nav-items">
+            <img src={Reward} alt="" className="navImg" />
+            <p className="nav-p">Reward</p>
+          </Link>
         </div>
         <div className="nav-items">
           <img src={More} alt="" className="navImg" />

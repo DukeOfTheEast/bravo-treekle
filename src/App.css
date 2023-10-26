@@ -33,6 +33,7 @@
   color: #fff;
   padding: 150px 70px;
   background: linear-gradient(to bottom, #09e82e, #0134c2);
+  padding-bottom: 175px;
 }
 
 .pinInput {
@@ -261,4 +262,134 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  text-decoration: none;
+}
+
+/* Transaction History */
+
+.txn {
+  background-color: #fff;
+  padding: 60px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 120px;
+}
+
+.txn-arrow {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 13px;
+  height: 13px;
+}
+
+.txn-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.txn-search {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  margin: 40px 0;
+  align-items: center;
+}
+
+.search-img {
+  width: 27px;
+  height: 27px;
+  background-color: rgb(219, 219, 240);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-input {
+  padding: 7px 15px;
+  border: none;
+  background-color: rgb(219, 219, 240);
+  border-radius: 5px;
+}
+
+.search-input::placeholder {
+  font-size: 10px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.txnEach {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  margin: 5px 0;
+  padding: 7px 0;
+  border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+/* REWARDS */
+.rewards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reward-nav {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.reward-arrow {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 13px;
+  height: 13px;
+}
+
+.question {
+  background-color: #0134c2;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 5px;
+  border-radius: 100%;
+}
+
+.rewards-andre {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.champ {
+  width: 40px;
+  height: 40px;
+  position: relative;
+
+  transform: skew(-20deg) rotate(20deg);
+  -webkit-transform: skew(-20deg) rotate(20deg);
+  -moz-transform: skew(-20deg) rotate(20deg);
+  overflow: hidden;
+  left: 40px;
+}
+
+.badge {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.badge-unlock {
+  font-size: 11px;
+}
+
+.chan {
+  margin-bottom: 10px;
 }
