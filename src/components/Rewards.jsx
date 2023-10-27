@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import LeftArrow from "../assets/asset13.svg";
 import Andre from "../images/1.jpg";
 import Champ from "../assets/asset17.svg";
-import Rise from "../assets/asset18.svg";
-import Stepper from "../assets/asset19.svg";
+import Rise from "../assets/asset21.svg";
+import Stepper from "../assets/asset18.svg";
 import Steady from "../assets/asset20.svg";
 import Benevolent from "../assets/asset21.svg";
-import The from "../assets/asset22.svg";
-import Star from "../assets/asset23.svg";
-import Streak from "../assets/asset16.svg";
-import Innovator from "../assets/asset15.svg";
+import The from "../assets/asset16.svg";
+import Star from "../assets/asset19.svg";
+import Streak from "../assets/asset19.svg";
+import Innovator from "../assets/asset19.svg";
 
 const Rewards = () => {
   return (
@@ -19,7 +19,7 @@ const Rewards = () => {
         <Link to="/dashboard">
           <img src={LeftArrow} alt="" className="reward-arrow" />
         </Link>
-        <p>Rewards</p>
+        <p className="rew">Rewards</p>
         <p className="question">?</p>
       </div>
 
@@ -32,7 +32,7 @@ const Rewards = () => {
         <p className="badge-unlock">Badges Unlocked</p>
       </div>
 
-      <div>
+      <div className="badges">
         <div>
           <img src={Rise} alt="" className="example-badge" />
           <p className="badge-text">Rising Star</p>

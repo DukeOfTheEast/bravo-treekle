@@ -103,8 +103,10 @@ const Dashboard = () => {
           <p className="nav-p">Home</p>
         </div>
         <div className="nav-items">
-          <img src={Chat} alt="" className="navImg" />
-          <p className="nav-p">Chat</p>
+          <Link to="/support" className="nav-items">
+            <img src={Chat} alt="" className="navImg" />
+            <p className="nav-p">Chat</p>
+          </Link>
         </div>
         <div className="nav-items">
           <Link to="/rewards" className="nav-items">

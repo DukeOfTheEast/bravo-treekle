@@ -335,6 +335,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 65px;
 }
 
 .reward-nav {
@@ -356,6 +357,10 @@
   font-size: 14px;
   padding: 2px 5px;
   border-radius: 100%;
+}
+
+.rew {
+  color: grey;
 }
 
 .rewards-andre {
@@ -392,4 +397,215 @@
 
 .chan {
   margin-bottom: 10px;
+}
+
+.example-badge {
+  width: 50px;
+  height: 50px;
+}
+
+.badge-text {
+  font-size: 9px;
+}
+
+.badges {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.groupImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.groupImg:nth-child(2) {
+  margin: 0 15px;
+}
+
+.groupImg:nth-child(1) {
+  margin: 0 30px;
+}
+
+.groupImgs {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.support {
+  background-color: #0134c2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 90px 50px;
+  padding-left: 15px;
+  padding-bottom: 103px;
+}
+
+.group-nav {
+  display: flex;
+  align-items: center;
+  gap: 160px;
+}
+
+.treek {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(249, 253, 253);
+  font-weight: 100;
+}
+
+.hello {
+  margin-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.held {
+  color: #fff;
+  font-size: 20px;
+}
+
+.how {
+  color: #09e82e;
+}
+
+.supportImg {
+  width: 15px;
+  height: 15px;
+}
+
+.message-p {
+  font-size: 12px;
+}
+
+.intel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 340px;
+}
+
+.heme {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 340px;
+}
+
+.mess {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quest {
+  background-color: #0134c2;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 100%;
+}
+
+.overmess {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  gap: 10px;
+
+  width: 300px;
+}
+
+/* in-app chat */
+/* App.css */
+.chat-app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chat-container {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  height: 450px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-container::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  background-color: #0134c2;
+  color: #fff;
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  float: right;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-container input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.chat-arrow {
+  width: 12px;
+  height: 12px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.chat-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 110px;
+  margin: 40px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat-btn {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0134c2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.chat-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #0134c2;
+}
+
+.chat-input::placeholder {
+  color: #abbdec;
+}
+
+.chat-input:focus {
+  outline: none;
 }
