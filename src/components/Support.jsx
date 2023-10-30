@@ -58,6 +58,12 @@ const Support = () => {
           <img src={LeftArrow} alt="" className="supportImg" />
         </div>
       </div>
+
+      <div>
+        <Link to="/dashboard" className="back">
+          Back
+        </Link>
+      </div>
     </div>
   );
 };

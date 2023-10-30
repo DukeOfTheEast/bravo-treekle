@@ -621,3 +621,7 @@
 .chat-input:focus {
   outline: none;
 }
+
+.back {
+  color: #fff;
+}
