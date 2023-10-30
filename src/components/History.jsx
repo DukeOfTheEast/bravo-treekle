@@ -77,13 +77,56 @@ const History = () => {
       </div>
 
       <div className="mainTxn">
-        {transactions.map((txn) => (
-          <div className="txnEach">
-            <p>{txn.type}</p>
-            <p>{txn.number}</p>
-            <p>{txn.amount}</p>
-          </div>
-        ))}
+        <div className="txnEach">
+          <p>Data</p>
+          <p>08034346272</p>
+          <p className="grn">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Data</p>
+          <p>08034346272</p>
+          <p className="grn">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Airtime</p>
+          <p>08034346272</p>
+          <p className="grn">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Data</p>
+          <p>08034346272</p>
+          <p className="red">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Airtime</p>
+          <p>08034346272</p>
+          <p className="red">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Data</p>
+          <p>08034346272</p>
+          <p className="yel">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Data</p>
+          <p>08034346272</p>
+          <p className="grn">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Airtime</p>
+          <p>08034346272</p>
+          <p className="grn">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Airtime</p>
+          <p>08034346272</p>
+          <p className="red">N12,000</p>
+        </div>
+        <div className="txnEach">
+          <p>Data</p>
+          <p>08034346272</p>
+          <p className="grn">N12,000</p>
+        </div>
       </div>
     </div>
   );
